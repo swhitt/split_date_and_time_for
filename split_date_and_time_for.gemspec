@@ -18,7 +18,9 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION.yml",
      "lib/split_date_and_time_for.rb",
+     "split_date_and_time_for.gemspec",
      "test/split_date_and_time_for_test.rb",
      "test/test_helper.rb"
   ]
