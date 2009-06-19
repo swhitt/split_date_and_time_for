@@ -1,6 +1,6 @@
 module SplitDateAndTimeFor
   def self.enable
-    ActionView::Base.send :include, ModelHelpers
+    ActiveRecord::Base.send :include, ModelHelpers
   end
   
   module ModelHelpers
